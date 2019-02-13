@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Writing a Cover Letter </title>
+<link rel = "stylesheet" type = "text/css" href = "fbla.css">
+
+<style>
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
+
+
+
+
+
+</head>
+<body class="bodyfont">
+
+
+
+<h1 style=color:royalblue;>What Even Is a Cover Letter?</h1> 
+<p style=margin:25px;>Well, it is a one page document that is sent with a resume when applying for a job; it contains a brief summary of a person&#x27;s experiences and skills, a person&#x27;s request to meet an employer, and a person&#x27;s purpose for applying for a job.</p>
+
+
+<h2>How to Write a Cover Letter:</h2>
+  <div class="cl-third cl-margin-bottom">
+      <ul class="cl-ul cl-border cl-center cl-hover-shadow">
+        <li class="cl-dark-grey cl-xlarge cl-padding-32" style=text-align:center;>Step 1: The Header</li>
+          <p class="cl-wide" style=font-size:20px;>When writing a header, you should always include your employer&#x27;s and your own contact information so that it will be convenient for your employer to contact you.</p><br>
+          
+          <img id="myImg" src="coverLetter.jpg" alt="Sample of a Header" width="300" height="200" align="left" > 
+						<!-- The Modal -->
+						<div id="myModal" class="modal">
+						  <span class="close">&times;</span>
+						  <img class="modal-content" id="img01">
+						  <div id="caption"></div>
+						</div>
+						<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+alert'hello1');
+
+img.onclick = function(){
+	alert"hello");
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+        </li>
+      </ul>
+    </div>
+    <div class="cl-third cl-margin-bottom">
+      <ul class="cl-ul cl-border cl-center cl-hover-shadow">
+        <li class="cl-dark-grey cl-xlarge cl-padding-32" style=text-align:center;>Step 2: The Introduction</li>
+          <p class="cl-wide" style=font-size:20px;>In the Introduction, explain how you heard about the position and why you are interested in it. Briefly explain your past experiences, especially ones that are notable. Be sure to address your employer with their name to ensure them that you are prepared for this job. This should be 2-3 sentences.</p>
+          <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+        </li>
+      </ul>
+    </div>
+    <div class="cl-third cl-margin-bottom">
+      <ul class="cl-ul cl-border cl-center cl-hover-shadow">
+        <li class="cl-dark-grey cl-xlarge cl-padding-32" style=text-align:center;>Step 3: The Body</li>
+          <p class="cl-wide" style=font-size:20px;>The Body is where the main focus of your cover letter should be. Expand on the skills you have that would be helpful for the job that you are applying to. Explain your past experiences and education. Try to elaborate and complement your resume rather than restating it as this would bore the employer. This should be 1-2 paragraphs.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="cl-third cl-margin-bottom">
+      <ul class="cl-ul cl-border cl-center cl-hover-shadow">
+        <li class="cl-dark-grey cl-xlarge cl-padding-32" style=text-align:center;>Step 4: The Conclusion</li>
+          <p class="cl-wide" style=font-size:20px;>The Conclusion is where you can "hit it home." First, clearly explain what you will do to contact the company. Be sure to thank the employer in a mature fashion and include your phone number or email in this paragraph.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </li>
+      </ul>
+    </div>
+
+<p> &nbsp; </p>
+<h1>Tips for Writing a Notable Cover Letter:</h1>
+
+<div class="cll-fourths cll-margin-bottom">
+      <ul class="cll-ul cll-border cll-center cll-hover-shadow">
+        <li class="cll-dark-grey cll-xlarge cll-padding-32" style=text-align:center;>Formatting</li>
+          <p class="cll-wide" style=font-size:20px;>Use 1&quot;-1.5&quot; margins to not strain the eyes. The minimum font size you should use is 12px because this is the standard font. Anything smaller will be too hard to read, especially because your cover letter is on paper. Use a professional font, such as a Sans or Sans Serif font; using any font that has swirls or is very bright will be strenuous to read, which might be the reason why the employer does not want to read your cover letter. Lastly, set the alignment of the paper to "Left" because this is how we generally read.  </p>
+        </li>
+      </ul>
+    </div>
+    
+<div class="cll-fourths cll-margin-bottom">
+      <ul class="cll-ul cll-border cll-center cll-hover-shadow">
+        <li class="cll-dark-grey cll-xlarge cll-padding-32" style=text-align:center;>How to Address the Reader</li>
+          <p class="cll-wide" style=font-size:20px;>To show that you genuinely care about the job opening, address the employer by his or her name. Do not use any first person pronouns except for "I"; using "you" will sound too informal. Do not make any unclear references and be sure to explain enough information for the employer to understand who you are. Remember: a cover letter is a <strong>brief</strong> summary of your r&eacute;sum&eacute;.</p>
+        </li>
+      </ul>
+    </div>
+
+<div class="cll-fourths cll-margin-bottom">
+      <ul class="cll-ul cll-border cll-center cll-hover-shadow">
+        <li class="cll-dark-grey cll-xlarge cll-padding-32" style=text-align:center;>Writing Tone</li>
+          <p class="cll-wide" style=font-size:20px;> Write maturely. This means that you should not use contractions, such as "couldn't" or "can't." Be sure to avoid vague pronouns or unclear references because this will leave the employer confused. Try not to use big words to convey your message, but do not use informal slang terms as well; use vocabulary that you are comfortable with.</p>
+        </li>
+      </ul>
+    </div>
+    
+<div class="cll-fourths cll-margin-bottom">
+      <ul class="cll-ul cll-border cll-center cll-hover-shadow">
+        <li class="cll-dark-grey cll-xlarge cll-padding-32" style=text-align:center;>Sound Confident</li>
+          <p class="cll-wide" style=font-size:20px;>Do not sound unsure of yourself; you are trying to appeal to the employer! For example, instead of saying &quot;I think I am fit for this job because XYZ.&quot;, you should say &quot;I am a fit employee for this company due to my XYZ experiences&quot;. Think about it: would you rather have an employee who lacks confidence and seems like they do not know what they are doing or would you rather have an employee who is confident and ready to take on a challenge? Probably the latter. </p>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Muli");
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family:Muli;
+}
+
+/* Change the color of links on hover */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a:hover {
+    background-color: #f1c40f;
+    color: black;
+    <!-- font-weight: bold; -->
+}
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #333;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+.footer {
+    float: left;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    
+}
+
+.cl-third{float:left;width:50%}
+.cl-margin-bottom{margin-bottom:16px}
+.cl-ul{list-style-type:none;padding:10px;margin:10px;}.cl-ul li{padding:8px 16px;border-bottom:1px solid black;}
+
+.cl-border-black{border-color:black;}
+.cl-center{text-align:justify;}
+.cl-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.cl-dark-grey{color:black;background-color:#FFFFAA;}
+.cl-xlarge{font-size:20px;}
+.cl-padding-32{padding-top:32px;padding-bottom:32px;}
+.cl-wide{letter-spacing:0.5px}
+
+.cll-fourths{float:left;width:25%}
+.cll-margin-bottom{margin-bottom:16px}
+.cll-ul{list-style-type:none;padding:10px;margin:10px;}
+.cll-ul li{padding:8px 16px;border-bottom:1px solid black;}
+.cll-border-black{border-color:black;}
+.cll-center{text-align:justify;}
+.cll-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.cll-dark-grey{color:black;background-color:#FFFFAA;}
+.cll-xlarge{font-size:20px;}
+.cll-padding-32{padding-top:32px;padding-bottom:32px;}
+.cll-wide{letter-spacing:0.5px}
+
+.h2 {
+    font-size: 50px;
+    text-align: left;
+}
+body {
+    background-color:#ffffff;    
+    margin-left:25px;
+    margin-right:20px;
+}
+
+
+.jo-third{float:left;width:33.33333%}
+.jo-margin-bottom{margin-bottom:16px}
+.jo-ul{list-style-type:none;padding:10px;margin:10px;}.jo-ul li{padding:8px 16px;border-bottom:1px solid black;}
+
+.jo-border-black{border-color:black;}
+.jo-center{text-align:justify;}
+.jo-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.jo-dark-grey{color:black;background-color:#FFFFAA;}
+.jo-xlarge{font-size:20px;}
+.jo-padding-32{padding-top:32px;padding-bottom:32px;}
+.jo-wide{letter-spacing:0.5px}
+
+img.ri
+{
+	position: absolute;
+	max-width: 80%;
+	top: 10%;
+	left: 10%;
+	border-radius: 1px;
+	box-shadow: 0 0px 0px rgba(0,0,0,0.9);
+}
+
+img.ri:empty
+{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+@media screen and (orientation: portrait) {
+  img.ri {
+      max-width: 90%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri {
+      max-height: 90%;
+  }
+}
+
+.type-fourths{float:left;width:25%}
+.type-margin-bottom{margin-bottom:16px}
+.type-ul{list-style-type:none}
+.type-ul li{padding:8px 16px}
+.type-border-black{border-color:black;}
+.type-center{text-align:left;}
+.type-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.type-dark-grey{color:black;background-color:#FFFFAA;}
+.type-xlarge{font-size:20px;}
+.type-padding-32{padding-top:32px;padding-bottom:32px;}
+.type-wide{letter-spacing:0.5px}
+
+
+.re-third{float:left;width:25%}
+.re-margin-bottom{margin-bottom:16px}
+.re-ul{list-style-type:none;padding:10px;margin:10px;}.re-ul li{padding:8px 16px;border-bottom:1px solid black;}
+
+.re-border-black{border-color:black;}
+.re-center{text-align:justify;}
+.re-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.re-dark-grey{color:black;background-color:#FFFFAA;}
+.re-xlarge{font-size:20px;}
+.re-padding-32{padding-top:32px;padding-bottom:32px;}
+.re-wide{letter-spacing:0.5px}
+
+.app-third{float:left;width:100%}
+.app-margin-bottom{margin-bottom:16px}
+.app-ul{list-style-type:none;padding:10px;margin:10px;}.app-ul li{padding:8px 16px;border-bottom:1px solid black;}
+
+.app-border-black{border-color:black;}
+.app-center{text-align:justify;}
+.app-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.app-dark-grey{color:black;background-color:#FFFFAA;}
+.app-xlarge{font-size:20px;}
+.app-padding-32{padding-top:32px;padding-bottom:32px;}
+.app-wide{letter-spacing:0.5px}
+
+.bodyfont
+{
+	font-family:Muli;
+  font-size:20px;
+  background-color:#ffffff;
+}
+
+.tip-third{float:left;width:33.33333%}
+.tip-margin-bottom{margin-bottom:16px}
+.tip-ul{list-style-type:none;padding:10px;margin:10px;}.tip-ul li{padding:8px 16px;border-bottom:1px solid black;}
+
+.tip-border-black{border-color:black;}
+.tip-center{text-align:justify;}
+.tip-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.tip-dark-grey{color:black;background-color:#FFFFAA;}
+.tip-xlarge{font-size:20px;}
+.tip-padding-32{padding-top:32px;padding-bottom:32px;}
+.tip-wide{letter-spacing:0.5px}
+
+.tipp-third{float:left;width:50%}
+.tipp-margin-bottom{margin-bottom:16px}
+.tipp-ul{list-style-type:none;padding:10px;margin:10px;}
+.tipp-ul li{padding:8px 16px;}
+.tipp-border-black{border-color:black;}
+.tipp-center{text-align:justify;}
+.tipp-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.tipp-dark-grey{color:black;background-color:#FFFFAA;}
+.tipp-xlarge{font-size:20px;}
+.tipp-padding-32{padding-top:32px;padding-bottom:32px;}
+.tipp-wide{letter-spacing:0.5px}
+
+.tip-fourth{float:left;width:25%}
+.tip-margin-bottom{margin-bottom:16px}
+.tip-ul{list-style-type:none;padding:10px;margin:10px;}.tip-ul li{padding:8px 16px;border-bottom:1px solid black;}
+
+.tip-border-black{border-color:black;}
+.tip-center{text-align:justify;}
+.tip-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.tip-dark-grey{color:black;background-color:#FFFFAA;}
+.tip-xlarge{font-size:20px;}
+.tip-padding-32{padding-top:32px;padding-bottom:32px;}
+.tip-wide{letter-spacing:0.5px}
+
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 600px){
+    .modal-content {
+        width: 50%;
+    }
+}
+
+
